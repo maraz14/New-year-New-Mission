@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: 'Lato', sans-serif;}
+
+    .banner-section {
+        background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+        background-repeat: no-repeat;
+        max-width: 1320px;
+        min-height: 600px;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 16px;
+        color: #ffffff;
+        text-align: center;
+    
+    }
+    
+    .banner-titel-one {
+        font-size: 1.92rem;
+        font-weight: 400;
+    
+    }
+    
+    .banner-titel-tow {
+        font-size: 4.32rem;
+        font-weight: 900;
+    }
+
+.offer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.off {
+    font-size: 5.28rem;
+    color: #F00;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.offer-deals {
+    font-size: 1.44rem;
+    color: #FF0000;
+    font-weight: 500;
+}
+
+.all-categorie {
+    font-size: 2.88rem;
+    color: #070211;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-section-img {
+    max-width: 800px;
+}
+
+.offer-section-img img {
+    width: 100%;
+}
+.midnight-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.party-content {
+    width: 50%;
+    color: white;
+
+}
+
+.party-titel {
+    font-size: 3.84rem;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.party-description {
+    font-size: 1.08rem;
+    margin-bottom: 15px;
+}
+
+.party-content>a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.place-section {
+    height: 50vh;
+    max-width: 1320px;
+    min-height: 482px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 0, 0, 10%), rgba(255, 0, 0, 10%), rgb(255, 255, 255));
+    border-radius: 10px;
+    font-weight: 600;
+}
+.place-section h3 {
+    font-size: 1.92rem;
+
+}
+
+.place-section span {
+    color: #FF0000;
+}
+
+.place-section button {
+    color: white;
+    background-color: #FF0000;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.best-offer-section {
+    display: flex;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.best-offer-content {
+    width: 32%;
+
+}
+
+.best-offer-content h3 {
+    color: #F00;
+    font-size: 1.44rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.best-offer-content h2 {
+    color: #070211;
+    font-size: 2.88rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.best-offer-description {
+    font-size: 1.2rem;
+    color: rgba(7, 2, 17, 60%);
+    margin-bottom: 20px;
+
+}
+
+.best-offer-img {
+    width: 33%;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 30px;
+    background-size: 100%;
+    margin-bottom: 15px;
+}
+
+.best-offer-img img {
+    width: 95%;
+    border: 10px solid #FFF;
+    border-radius: 50%;
+
+}
+
+.new-year-2024 {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+
+}
+
+.new-year-2024 h3 {
+    font-size: 2.88rem;
+    color: #F00;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+
+.holidays-sale-section {
+    height: 80vh;
+    width: 1320px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.holidays-content {
+    
+    margin: 0 auto;
+
+}
+
+.holidays-content h5 {
+    font-size: 1.44rem;
+    color: #070211;
+}
+
+.holidays-content h2 {
+    font-size: 4.32rem;
+    font-weight: 900;
+}
+
+.holidays-content span {
+    color: #F00;
+}
+
+.holidays-content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.60);
+
+}
+
+.holidays-sale-img {
+
+    background-image: url('/resources/Rectangle\ 2.png'), url('/resources/Rectangle\ 1.png');
+    background-position: bottom, right;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 75vh;
+
+}
+
+#holidays-sale-img-one {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 450px;
+}
+
+#holidays-sale-img-one img {
+    width: 100%;
+
+}
+
+#holidays-sale-img-tow {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 450px;
+}
+
+.Portfolio-section {
+    max-width: 1320px;
+    margin: 250px auto 100px;
+    min-height: 800px;
+}
+
+
+.Portfolio-section-content {
+    max-width: 800px;
+}
+
+.Portfolio-section-content h4 {
+    color: #F00;
+    font-size: 1.44rem;
+    width: 500;
+
+}
+
+.Portfolio-section-content h2 {
+    color: #070211;
+    font-size: 2.88rem;
+    font-weight: 900;
+}
+
+.Portfolio-section-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 1.2rem;
+}
+
+.Portfolio-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+.Portfolio-img img {
+    width: 424px;
+    height: 450px;
+}
+
+.Portfolio-img img:hover {
+    border: 2px solid #F00;
+    border-radius: 17px;
+
+}
+
+
+.Subscribe-section {
+    max-width: 1320px;
+    margin: 150px auto;
+    background-color: rgba(255, 0, 0, 5%);
+    text-align: center;
+    padding: 5% 0;
+    border-radius: 10px;
+}
+
+.subscribe {
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.subscribe img {
+    width: 150px;
+}
+
+.subscribe-titel {
+    font-size: 2.88rem;
+    font-weight: 900;
+    color: #070211;
+}
+
+.subscribe-description {
+    font-size: 1.2rem;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.Subscribe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Subscribe-btn input {
+    font-size: 1rem;
+    color: #070211;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.Subscribe-btn button {
+    font-size: 1.2rem;
+    background-color: #F00;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    margin-left: -5px;
+    font-weight: 600;
+}
+
+
+
+.foot{
+    background-color: black;
+    width:1600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    border-radius: 15px;
+    margin-top: 60px;
+
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.44rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+.address-content {
+    padding-bottom: 25px;
+}
+
+.phone p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 15px;
+    color: aliceblue;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.44rem;
+    width: 70%;
+    margin: 52px auto;
+    color: aliceblue;
+}
